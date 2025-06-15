@@ -1,0 +1,244 @@
+section.hero{
+    margin-top: 3rem;
+}
+
+/* =============
+1.section left
+============== */
+section .left-section{
+    flex-grow: 1;
+}
+section.hero .parent-avatar.flex{
+    align-items: end;
+    gap: .6rem;
+}
+.parent-avatar img{
+    background-image: url("../../../public/images/me2-modified.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.parent-avatar img{
+width: 80px;
+height: 80px;
+border-radius: 50%;
+background-color: yellow;
+border: 1px solid orange;
+padding: 1px;
+/* box-shadow: 2px 2px 40px rgba(203, 200, 200, .586) inset; */
+margin-right: 5px;
+
+
+}
+section .verified{
+    color: var(--blue);
+    margin-bottom: .3rem;
+}
+section.hero h1.title{
+    font-size: 2.85rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+    color: var(--title);
+}
+section.hero p.subtitle{
+    color: var(--subtitle);
+    font-size: .9rem;
+    line-height: 1.65rem;
+    margin-bottom: 32px;
+
+}
+section.hero .all-icons{
+    gap: 25px;
+    font-size: 1.5rem;
+    
+    
+}
+section.hero .all-icons a{
+    color: var(--subtitle);
+    display: block;
+}
+section.hero .all-icons .icon a{
+   display: inline-block;
+}
+
+section.hero .all-icons .icon a :hover{
+   
+    color: var(--icon-hover);
+
+}
+
+/* ===========
+
+style page about
+
+==============*/
+
+
+
+
+.info{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.info image{
+    width: 40%;
+   
+
+}
+
+
+
+.info .image{
+    background-image: url(../../../public/images/me2.jpg) ;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+    max-width: 300px;
+    max-height: 500px;
+    
+}
+.image{
+    width: 100%;
+    max-width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.info .about{
+    width: 60%;
+    max-width: 60%;
+    line-height: 1.5;
+    margin: 30px;
+}
+.info .about h2,
+.info .about p{
+    color: var(--title);
+}
+
+.skills{
+    text-align: center;
+}
+.skills h1,
+.skills h4{
+    color: var(--title);
+}
+
+.skills-container {
+    background-color: var(--secondary);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border:1px solid rgba(125, 125, 130, 0.4)
+    
+}
+.skills-container h2 {
+    text-align: center;
+    animation: fadeIn 2s;
+}
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+.skills-list li {
+    background-color: var(--secondary);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    
+    color: var(--title);
+    font-weight: bold;
+    border:1px solid rgba(125, 125, 130, 0.4)
+}
+.skills-list li:nth-child(1) {
+    animation-delay: 0.5s;
+}
+.skills-list li:nth-child(2) {
+    animation-delay: 1s;
+}
+.skills-list li:nth-child(3) {
+    animation-delay: 1.5s;
+}
+.skills-list li:nth-child(4) {
+    animation-delay: 2s;
+}
+.skills-list li:nth-child(5) {
+    animation-delay: 2.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+@media (max-width : 650px){
+    .info{
+        display: flex;
+        flex-direction: column;
+        
+        
+        }
+    .info image{
+        width: 100%;
+       
+    }
+    .info .about{
+        width: 100%;
+        
+        
+        line-height: 1.2;
+        
+        
+        
+    }
+    .info .about h2,
+    .info .about p{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* ======================
+1.section right animation
+============== ===========*/
+.right-section .animation{
+    width: 100%;
+    translate: 100px 55px;
+}
+@media (max-width:800px) {
+    .animation{
+        display: none;
+    }
+    
+}

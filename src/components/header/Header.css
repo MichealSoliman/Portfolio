@@ -1,0 +1,165 @@
+
+
+
+/* ==================
+table of contents
+==================
+
+1.Header Design
+2.icon
+3. Modal
+4. media
+
+
+
+
+
+*/
+/* ==================
+Header Design
+================== */
+
+header.flex{
+    justify-content: space-between;
+    padding: 0 2.4rem;
+    margin-top: 1.2rem;
+}
+header.flex nav{
+    background-color: var(--bgHeader);
+    padding: .77rem 1.6rem;
+    border-radius: 55px;
+    box-shadow: 1px 1px 20px rgb(32, 33, 33 0.292);
+}
+
+header ul.flex{
+    gap: 16px;
+
+}
+header ul li a{
+    color: var(--title);
+    opacity: 0.9;
+    font-size: 0.8rem;
+    font-weight: 500;
+ 
+}
+header ul li a.active{
+    color: var(--blue);
+    font-size: .9rem;
+
+}
+header ul li a:hover{
+    color: var(--blue);
+    opacity: 1;
+    font-size: 0.9rem;
+}
+/* ==================
+icon
+================== */
+header button{
+    font-size: 1.2rem;
+    
+}
+header .menu{
+    border: 1px solid rgb(75, 71, 71);
+    background-color: var(--bgHeader);
+    padding: 6px 10px;
+    border-radius: 50%;
+    display: none;
+}
+.light header .menu{
+    color: black;
+}
+.light header .close{
+    color: black;
+}
+header .mode{
+    border: 1px solid rgb(89, 86, 86);
+    background-color: var(--bgHeader);
+    padding: 6px 10px;
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 1px 1px 8px rgb(129, 123, 123); 
+}
+.light header .mode{
+    background-color: white;
+    padding-top: -5px;
+    color: orange;
+    line-height: 18px;
+    box-shadow: 1px 1px 8px rgb(129, 123, 123); 
+    border-radius: 50px;
+    border: 1px solid rgb(170, 162, 162) ;
+}
+header .menu:hover{
+    border: 1px solid rgb(118, 82, 82);
+    
+}
+header .mode:hover{
+    border: 1px solid rgb(118, 82, 82);
+   
+}
+
+/* ==================
+modal
+================== */
+header .fixed{
+    position: fixed;
+    inset: 0;
+    z-index: 22;
+    background-color: rgb(40, 40, 48, 0.91);
+    backdrop-filter: blur(4px);
+
+
+}
+@keyframes mymove{
+    0%{scale: 0;}
+    60%{scale:1.1;}
+
+    100%{scale: 1;}
+}
+header .fixed ul.modal{
+    animation: mymove .7s 1;
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--secondary);
+
+}
+
+
+header .fixed ul.modal li{
+    border-bottom: 1px solid var(--border);
+    padding-bottom: .77rem;
+    padding-top: .5rem;
+}
+header .fixed ul.modal li a{
+    font-size: 1rem;
+}
+header .fixed ul.modal li:last-child{
+    border-bottom: none;
+
+}
+header .fixed ul.modal li:first-child{
+   text-align: right;
+   
+  
+   border-bottom: none;
+   padding-bottom: 0;
+   padding-top: .2rem;
+  
+
+}
+/* ==================
+Header media
+================== */
+
+@media (max-width:700px) {
+    header.flex nav{
+        display: none;
+    }
+    header button.menu{
+        display: block;
+    }
+    
+}

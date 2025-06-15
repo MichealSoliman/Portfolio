@@ -1,0 +1,42 @@
+footer.flex{
+    justify-content: space-between;
+}
+footer.flex ul{
+    gap: 1rem;
+}
+footer.flex ul li a{
+    color:var(--subtitle);
+    font-size: .9rem;
+}
+footer.flex ul li a:hover{
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer.flex p{
+    color: rgb(113, 113, 122);
+}
+@media (max-width:800px){
+    footer.flex{
+        flex-direction: column;
+    }
+}
+
+::-webkit-scrollbar{
+    width: .8rem;
+}
+::-webkit-scrollbar-track{
+    border:  5px solid #232943;
+    box-shadow: inset 0 0 2.5px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+   
+}
