@@ -63,10 +63,10 @@ export const myProjects = [
     all: "all",
     projectTitle: "JavaScript project",
     category: "JavaScript",
-    imgPath: "./images/ecommerce.png",
-    url : "https://michealsoliman.github.io/e-commerce-web-site/",
-    urlGithub: "https://github.com/MichealSoliman/e-commerce-web-site",
-    subtitle: "E-commerce website using HTML CSS JAVASCRIPT "
+    imgPath: "./images/fire-fighting.png",
+    url : "https://fire-fighting-six.vercel.app/",
+    urlGithub: "https://github.com/MichealSoliman/fire-fighting",
+    subtitle: "Fire protection website design for safety and emergency solutions. "
   },
   {
     all: "all",
