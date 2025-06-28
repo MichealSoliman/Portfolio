@@ -68,6 +68,15 @@ export const myProjects = [
     urlGithub: "https://github.com/MichealSoliman/e-commerce-web-site",
     subtitle: "E-commerce website using HTML CSS JAVASCRIPT "
   },
+  {
+    all: "all",
+    projectTitle: "JavaScript project",
+    category: "JavaScript",
+    imgPath: "./images/carousel-1.jpg",
+    url : "https://air-cool-tau.vercel.app/",
+    urlGithub: "https://github.com/MichealSoliman/Air-cool",
+    subtitle: "Reliable AC Installation, Maintenance & Repair Services "
+  },
 
   // ==================
   //  React.js project
