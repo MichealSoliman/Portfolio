@@ -95,10 +95,10 @@ export const myProjects = [
     all: "all",
     projectTitle: "React.js project",
     category: "React.js",
-    imgPath: "./images/designer.png",
-    url : "https://reactportfolio-60741.firebaseapp.com/",
-    urlGithub: "https://github.com/MichealSoliman/ReactPortfolio",
-    subtitle: "kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+    imgPath: "./images/istockphoto-471973362-612x612.jpg",
+    url : "https://fashion-steel-eta.vercel.app/",
+    urlGithub: "https://github.com/MichealSoliman/Fashion",
+    subtitle: "A user-friendly fashion website featuring a wide collection of trendy outfits."
   },
  
 ];
