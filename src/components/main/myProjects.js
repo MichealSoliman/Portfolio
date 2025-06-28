@@ -95,7 +95,7 @@ export const myProjects = [
     all: "all",
     projectTitle: "React.js project",
     category: "React.js",
-    imgPath: "./images/istockphoto-471973362-612x612.jpg",
+    imgPath: "./images/fashion (2).png",
     url : "https://fashion-steel-eta.vercel.app/",
     urlGithub: "https://github.com/MichealSoliman/Fashion",
     subtitle: "A user-friendly fashion website featuring a wide collection of trendy outfits."
