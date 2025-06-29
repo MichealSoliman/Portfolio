@@ -5,6 +5,7 @@ import Footer from '../../footer/Footer'
 import '../../hero/Hero'
 import './About'
 import './DownloadCV'
+import CV from '../../CV/CV'
 
 
 
@@ -45,9 +46,8 @@ const About = () => {
 
       <div>
       <h1>My CV Downloader</h1>
+      <CV/>
       
-       
-       <DownloadCV />
     </div>
      
         <div className="skills-container">

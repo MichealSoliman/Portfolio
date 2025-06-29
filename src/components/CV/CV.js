@@ -11,13 +11,14 @@ function CV() {
 
   return (
     <section className="cv-section">
-      <h2>سيرتي الذاتية</h2>
+      <h2> Professional CV</h2>
       <div className="cv-buttons">
-        <button onClick={toggleCV} className="cv-button" title="عرض الـ CV">
-          <i className="fas fa-eye"></i> عرض الـ CV
+        <button onClick={toggleCV} className="cv-button" title="Preview CV">
+          <i className="fas fa-eye"></i> Preview CV
         </button>
-        <a href="/cv/michael-soliman.pdf" download className="cv-button" title="تحميل الـ CV">
-          <i className="fas fa-download"></i> تحميل الـ CV
+        <a href="/cv/michael-soliman.pdf" download className="cv-button" title="Download CV">
+          <i className="fas fa-download"></i> Download CV
+
         </a>
         
       </div>

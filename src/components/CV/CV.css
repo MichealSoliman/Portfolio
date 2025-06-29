@@ -1,54 +1,64 @@
-/* تنسيق السكشن فقط */
+/* ================
+CV Section Styles
+================ */
+
 .cv-section {
-  direction: rtl;
-  text-align: right;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 20px 0;
+  margin:auto;
+  padding: 2rem;
+  background-color: var(--bgHeader);
+  color: var(--title);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .cv-section h2 {
-  color: #333;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
   text-align: center;
-  margin-bottom: 20px;
-  font-size: 24px;
 }
 
+/* Buttons */
 .cv-buttons {
   display: flex;
   justify-content: center;
-  gap: 15px;
-  margin-bottom: 20px;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .cv-button {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 20px;
-  font-size: 16px;
-  color: #fff;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
+  background-color: var(--secondary);
+  color: var(--title);
+  border: 1px solid var(--border);
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: 0.3s ease;
 }
 
 .cv-button:hover {
-  background-color: #0056b3;
+  background-color: var(--blue);
+  color: white;
 }
 
+/* PDF Preview */
 .cv-preview {
-  margin-top: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  background-color: white;
+  border: 2px solid var(--border);
+  border-radius: 8px;
   overflow: hidden;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+body.dark .cv-preview {
+  background-color: #1a1a1a;
+  border-color: #444;
 }
 
 .cv-preview iframe {
   border: none;
+  width: 100%;
+  height: 600px;
 }
