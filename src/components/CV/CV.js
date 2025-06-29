@@ -16,7 +16,7 @@ function CV() {
         <button onClick={toggleCV} className="cv-button" title="عرض الـ CV">
           <i className="fas fa-eye"></i> عرض الـ CV
         </button>
-        <a href="../.cv/" download className="cv-button" title="تحميل الـ CV">
+        <a href="/cv/michael-soliman.pdf" download className="cv-button" title="تحميل الـ CV">
           <i className="fas fa-download"></i> تحميل الـ CV
         </a>
         
@@ -25,7 +25,7 @@ function CV() {
       {showCV && (
         <div className="cv-preview">
           <iframe
-            src="/cv.pdf"
+            src="/cv/michael-soliman.pdf"
             title="CV Preview"
             width="100%"
             height="600px"
