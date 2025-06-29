@@ -54,10 +54,10 @@ export const myProjects = [
     all: "all",
     projectTitle: "JavaScript project",
     category: "JavaScript",
-    imgPath: "./images/fashion.png",
-    url : "https://michealsoliman.github.io/Fashion-Website/",
-    urlGithub: "https://github.com/MichealSoliman/Fashion-Website",
-    subtitle: "Clothes website using HTML CSS JAVASCRIPT "
+    imgPath: "./images/Riyadh-Shipping.png",
+    url : "https://riyadh-shipping.vercel.app/",
+    urlGithub: "https://github.com/MichealSoliman/Riyadh-Shipping",
+    subtitle: "International Shipping Website Design – Riyadh Logistics Made Easy. "
   },
   {
     all: "all",
@@ -66,7 +66,7 @@ export const myProjects = [
     imgPath: "./images/fire-fighting.png",
     url : "https://fire-fighting-six.vercel.app/",
     urlGithub: "https://github.com/MichealSoliman/fire-fighting",
-    subtitle: "Fire protection website design for safety and emergency solutions. "
+    subtitle: "Fire protection website design for safety and emergency solutions"
   },
   {
     all: "all",
