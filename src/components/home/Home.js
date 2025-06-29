@@ -5,6 +5,7 @@ import Main from '../main/Main'
 import Contact from '../contact/Contact'
 import Footer from '../footer/Footer';
 import './../../App.css'
+import CV from '../CV/CV'
 const Home = () => {
   return (
     <div className='container'>
@@ -13,6 +14,8 @@ const Home = () => {
       <Hero/>
       <div className='divider'></div>
       <Main/>
+      <div className='divider'></div>
+      <CV/>
       <div className='divider'></div>
       <Contact/>
       <div className='divider'></div>
