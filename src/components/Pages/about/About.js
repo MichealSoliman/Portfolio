@@ -50,21 +50,6 @@ const About = () => {
       
     </div>
      
-        <div className="skills-container">
-        <div className='skills'>
-        <h1>My skills</h1>
-        <h4>Here is my skills to represent my Expertise</h4>
-        </div>
-        <ul className="skills-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            {/* <li></li> */}
-            <li>React</li>
-            
-        </ul>
-    </div>
-      
       <div className='divider'></div>
       <Footer/>
     </div>

@@ -14,8 +14,7 @@ const Home = () => {
       <Hero/>
       <div className='divider'></div>
       <Main/>
-      <div className='divider'></div>
-      <CV/>
+      
       <div className='divider'></div>
       <Contact/>
       <div className='divider'></div>
